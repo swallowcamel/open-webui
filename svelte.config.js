@@ -15,9 +15,9 @@ const config = {
 			assets: 'build',
 			fallback: 'index.html'
 		}),
-		paths: {
-			base: '/servant'
-		},
+		// paths: {
+		// 	base: '/'
+		// },
 		appDir: 'servant'
 	},
 	onwarn: (warning, handler) => {
