@@ -24,7 +24,7 @@ def search_searxng(query_url: str, query: str, count: int) -> list[SearchResult]
     r = requests.get(
         url,
         headers={
-            "User-Agent": "Open WebUI (https://github.com/open-webui/open-webui) RAG Bot",
+            "User-Agent": "MLLM (https://github.com/open-webui/open-webui) RAG Bot",
             "Accept": "text/html",
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "en-US,en;q=0.5",

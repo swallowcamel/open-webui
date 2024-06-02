@@ -276,7 +276,7 @@
 							: ''} "
 					>
 						<img
-							src={model?.info?.meta?.profile_image_url ?? '/model.svg'}
+							src={model?.info?.meta?.profile_image_url ?? '/model.png'}
 							alt="modelfile profile"
 							class=" rounded-full w-full h-auto object-cover"
 						/>
