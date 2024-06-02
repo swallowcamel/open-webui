@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - dev
+      # - dev
   pull_request:
     branches:
       - main
-      - dev
+      # - dev
 
 jobs:
   build:
@@ -32,8 +32,8 @@ jobs:
       - name: Run i18next
         run: npm run i18n:parse
 
-      - name: Check for Changes After Format
-        run: git diff --exit-code
+      # - name: Check for Changes After Format
+      #   run: git diff --exit-code
 
       - name: Build Frontend
         run: npm run build

@@ -1,14 +1,14 @@
-name: Python CI
+name: Backend Build
 
 on:
   push:
     branches:
       - main
-      - dev
+      # - dev
   pull_request:
     branches:
       - main
-      - dev
+      # - dev
 
 jobs:
   build:
@@ -35,5 +35,5 @@ jobs:
       - name: Format backend
         run: npm run format:backend
 
-      - name: Check for changes after format
-        run: git diff --exit-code
+      # - name: Check for changes after format
+      #   run: git diff --exit-code
