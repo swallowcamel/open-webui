@@ -14,11 +14,11 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: 'index.html'
-		})
-		// ,
+		}),
 		// paths: {
-		// 	base: '/servant/'
-		// }
+		// 	base: '/servant'
+		// },
+		appDir: 'app'
 	},
 	onwarn: (warning, handler) => {
 		const { code, _ } = warning;
