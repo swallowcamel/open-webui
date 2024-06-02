@@ -8,7 +8,7 @@ Your interest in contributing to Open WebUI is greatly appreciated. This documen
 
 ### 🦙 Ollama vs. Open WebUI
 
-It's crucial to distinguish between Ollama and Open WebUI:
+It's crucial to distinguish between Ollama and LLM:
 
 - **Open WebUI** focuses on providing an intuitive and responsive web interface for chat interactions.
 - **Ollama** is the underlying technology that powers these interactions.
