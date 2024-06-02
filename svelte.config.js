@@ -14,7 +14,8 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: 'index.html'
-		})
+		}),
+		appDir: 'servant'
 	},
 	onwarn: (warning, handler) => {
 		const { code, _ } = warning;

@@ -32,7 +32,7 @@
 	import SettingsModal from '$lib/components/chat/SettingsModal.svelte';
 	import Sidebar from '$lib/components/layout/Sidebar.svelte';
 	import ShortcutsModal from '$lib/components/chat/ShortcutsModal.svelte';
-	import ChangelogModal from '$lib/components/ChangelogModal.svelte';
+	// import ChangelogModal from '$lib/components/ChangelogModal.svelte';
 	import Tooltip from '$lib/components/common/Tooltip.svelte';
 	import { getBanners } from '$lib/apis/configs';
 	import { getUserSettings } from '$lib/apis/users';
@@ -192,7 +192,7 @@
 
 <ShortcutsModal bind:show={showShortcuts} />
 <SettingsModal bind:show={$showSettings} />
-<ChangelogModal bind:show={$showChangelog} />
+<!-- <ChangelogModal bind:show={$showChangelog} /> -->
 
 <div class="app relative">
 	<div
